@@ -9,3 +9,8 @@ jobs:
     steps:
       - name: echo test
         run: echo "Hello again!"
+      - name: checkout 
+        uses: actions/checkout@v6.0.0
+      - name: list dir
+        run: ls -la
+
